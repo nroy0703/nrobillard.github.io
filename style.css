@@ -1,15 +1,18 @@
-<!DOCTYPE html>
-<html>
-<head>
-<style>
+
+
+
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+}
+
+.imagestyle1 { position: relative; top: -3px; }
 
 
 img.b {
   vertical-align: text-top;
-}
 
-
-}
-</style>
-</head>
-<body>
