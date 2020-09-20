@@ -5,10 +5,9 @@ body {
   background-image: linear-gradient(#007EA7, #003459,#003458,#003356,#00263c);
 }
 
-#space1 {
-    
-  border-collapse: separate;
-  border-spacing: 30px;
+table {
+    border-collapse: separate;
+    border-spacing: 30px;
 }
 
 h1 {
