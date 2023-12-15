@@ -1,34 +1,90 @@
+/* FILEPATH: /Users/nickrobillard/Jupiter_notebooks/310_final/html/styles.css */
 
-
-
+/* Your CSS code goes here */
+/* Reset some default styles */
 body {
-  background-image: linear-gradient(#007EA7, #003459,#003458,#003356,#00263c);
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
 }
 
-table {
-    border-collapse: separate;
-    border-spacing: 35px;
+/* Header styles */
+header {
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
 }
 
-h1 {
-  color: #ffffff;
-  margin-left: 20px;
+/* Navigation styles */
+nav {
+    background-color: #333;
 }
 
-p {
-  
-  color:#ffffff;
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-.imagestyle1 { position: relative; top: -50px; }
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
 
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
 
-img.b {
-  vertical-align: text-top;
-  
-  tr:hover {background-color: #f5f5f5;}
-  
+/* Section styles */
+section {
+    padding: 20px;
+}
 
-  
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Example styles for content within sections */
+section h2 {
+    color: #3498db;
+}
+
+section p {
+    line-height: 1.5;
+}
+
+/* Example styles for a form */
+form {
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+form input[type="submit"] {
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 10px;
+    cursor: pointer;
+}
  
   
