@@ -13,6 +13,11 @@ header {
     text-align: center;
 }
 
+img {
+    width: 300px; 
+    height: auto; 
+}
+
 /* Navigation styles */
 nav {
     background-color: #333;
