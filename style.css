@@ -45,7 +45,7 @@ footer {
     background-color: #333;
     color: #ffffff;
     text-align: center;
-    padding: 8px;
+    padding: 6px;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -60,28 +60,5 @@ section p {
     line-height: 1.5;
 }
 
-/* Example styles for a form */
-form {
-    margin-top: 20px;
-}
-
-form label {
-    display: block;
-    margin-bottom: 5px;
-}
-
-form input[type="text"],
-form input[type="email"] {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 10px;
-}
-
-form input[type="submit"] {
-    background-color: #3498db;
-    color: #ffffff;
-    padding: 10px;
-    cursor: pointer;
-}
  
   
